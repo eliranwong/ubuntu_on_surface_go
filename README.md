@@ -76,6 +76,28 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 > sudo ninja -C build install
 
+22. Set Up Python
+
+> sudo apt install -y make build-essential python3 python-setuptools python3-pip python3-dev python3-venv libssl-dev libffi-dev libnss3 zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+23. Set Up Qt
+
+> sudo apt-get --no-install-recommends install libqt\*5-dev qt\*5-dev qml-module-qtquick-* qt*5-doc-html libqt5xml5 libqt5x11extras5 libqt5x11extras5-dev
+
+> cd $HOME
+
+> mkdir playqt6
+
+> cd playqt6
+
+> python3 -m venv venv
+
+> source venv/bin/activate
+
+> pip3 install PySide6
+
+> echo 'alias qt6examples="source $HOME/playqt6/venv/bin/activate && cd $HOME/playqt6/venv/lib/python3.10/site-packages/PySide6/examples"' >> $HOME/.bashrc
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
