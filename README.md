@@ -29,10 +29,10 @@ type 'Y' and press 'Enter'
 13. Restart computer
 14. Install Surface Kernel:
 
-> wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \<br>
+> wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \\<br>
     | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/linux-surface.gpg
 
-> echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \<br>
+> echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \\<br>
 	| sudo tee /etc/apt/sources.list.d/linux-surface.list
 
 > sudo apt update
