@@ -56,7 +56,25 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 > neofetch
 
+20. Download Linux Zoom App from https://zoom.us/download?os=linux , install Zoom App and dependencies:
 
+> sudo apt install -y libglib2.0-0 libgstreamer-plugins-base1.0-0 libxcb-shape0 libxcb-shm0 libxcb-xfixes0 libxcb-randr0 libxcb-image0 libfontconfig1 libgl1-mesa-glx libxi6 libsm6 libxrender1 libpulse0 libxcomposite1 libxslt1.1 libsqlite3-0 libxcb-keysyms1 libxcb-xtest0 ibus
+
+> sudo apt install ./zoom_amd64.deb
+
+21. Set up camera driver
+
+> sudo apt install -y git build-essential meson ninja-build pkg-config libgnutls28-dev openssl     python3-pip python3-yaml python3-ply python3-jinja2 qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5 qttools5-dev-tools libtiff-dev libevent-dev libyaml-dev gstreamer1.0-tools libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+
+> git clone https://git.libcamera.org/libcamera/libcamera.git
+
+> cd libcamera/
+
+> meson build -Dpipelines=uvcvideo,vimc,ipu3 -Dipas=vimc,ipu3 -Dprefix=/usr -Dgstreamer=enabled
+
+> ninja -C build
+
+> sudo ninja -C build install
 
 # References
 
@@ -66,3 +84,4 @@ https://www.zdnet.com/article/how-i-put-linux-on-a-microsoft-surface-go-in-just-
 
 https://www.medo64.com/2020/03/surface-go-wifi-driver-package/
 
+https://github.com/linux-surface/linux-surface/wiki/Camera-Support#build-libcamera-from-the-latest-git-source
