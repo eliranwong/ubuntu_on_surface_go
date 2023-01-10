@@ -98,6 +98,20 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 > echo 'alias qt6examples="source $HOME/playqt6/venv/bin/activate && cd $HOME/playqt6/venv/lib/python3.10/site-packages/PySide6/examples"' >> $HOME/.bashrc
 
+24. Install Microsoft Fonts
+
+> sudo apt install -y ttf-mscorefonts-installer
+
+25. Set Up UniqueBible
+
+> cd
+
+> git clone https://github.com/eliranwong/UniqueBible
+
+> cd UniqueBible
+
+> python3 uba.py
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
