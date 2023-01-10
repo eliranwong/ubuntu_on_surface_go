@@ -112,6 +112,24 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 > python3 uba.py
 
+26. Connect Android phone
+
+Android phone:
+
+Install and run 'KDE Connect'; select a folder and grant permission for file sharing
+
+On Ubuntu, run either:
+
+> sudo apt install kdeconnect 
+
+or
+
+> sudo apt install -y gnome-shell-extension-gsconnect gnome-shell-extension-manager
+
+Launch Gnome Shell Extension Manager to enable 'GSConnect'
+
+Pair Android phone with Ubuntu via 'KDE Connect' on Android phone.
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
