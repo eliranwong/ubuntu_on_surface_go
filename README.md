@@ -112,6 +112,8 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 > python3 uba.py
 
+Open menu 'UniqueBible > Config Flag Window', search for and check 'enableSystemTrayOnLinux', restart UBA
+
 26. Connect Android phone
 
 Android phone:
