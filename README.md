@@ -122,11 +122,7 @@ Install and run 'KDE Connect'; select a folder and grant permission for file sha
 
 On Ubuntu, run either:
 
-> sudo apt install kdeconnect 
-
-or
-
-> sudo apt install -y gnome-shell-extension-gsconnect gnome-shell-extension-manager
+> sudo apt install kdeconnect nautilus-kdeconnect gnome-shell-extension-gsconnect gnome-shell-extension-manager
 
 Launch Gnome Shell Extension Manager to enable 'GSConnect'
 
