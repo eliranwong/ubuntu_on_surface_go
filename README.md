@@ -153,3 +153,4 @@ https://vitux.com/how-to-edit-pdf-files-in-ubuntu/
 
 https://superuser.com/questions/1705684/does-the-apple-magic-trackpad-2-work-on-linux
 
+https://medium.com/@kaikoenig/apple-hardware-and-linux-964a4310bd4
