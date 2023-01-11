@@ -49,8 +49,15 @@ Read details at https://github.com/linux-surface/linux-surface/wiki/Installation
 
 16. Select 'Enroll Mok' > OK / Yes
 17. Enter 'surface' as password
-18. Reboot
-19. Install, run 'neofetch' and check if kernel information shows 6.1.3-surface:
+18. Reboot and run:
+
+> sudo update-grub
+
+19. Reboot and run, to check if kernel information has '-surface' suffix:
+
+> uname -a
+
+Or install, run 'neofetch':
 
 > sudo apt install -y neofetch
 
@@ -137,3 +144,12 @@ https://www.zdnet.com/article/how-i-put-linux-on-a-microsoft-surface-go-in-just-
 https://www.medo64.com/2020/03/surface-go-wifi-driver-package/
 
 https://github.com/linux-surface/linux-surface/wiki/Camera-Support#build-libcamera-from-the-latest-git-source
+
+https://9to5linux.com/you-can-now-install-linux-kernel-6-1-on-ubuntu-heres-how
+
+https://updf.com/edit-pdf/ubuntu-pdf-editor/
+
+https://vitux.com/how-to-edit-pdf-files-in-ubuntu/
+
+https://superuser.com/questions/1705684/does-the-apple-magic-trackpad-2-work-on-linux
+
