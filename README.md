@@ -167,6 +167,24 @@ Click "Install"
 
 Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/2022/06/touchpad-gestures-ubuntu-22-04-xorg/
 
+# Useful Gnome Shell Extension
+
+* GSConnect
+* X11 gestures
+* Clipboard Indicator
+* Vitals
+* Caffeine
+* Application Menu
+* CPU Power Manager
+* Places Status Indicator
+* Removable Drive Menu
+* Improved Workspace Indicator
+* Emoji Selector
+* Impatience
+* Just perfection
+* Sound input & output device chooser
+* System monitor
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
