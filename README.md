@@ -135,6 +135,38 @@ Launch Gnome Shell Extension Manager to enable 'GSConnect'
 
 Pair Android phone with Ubuntu via 'KDE Connect' on Android phone.
 
+# Switch to Xorg Session
+
+Ubuntu 22.04 uses wayland by default, switch to Xorg Session to improve application compatablility.
+
+> sudo nano /etc/gdm3/custom.conf
+
+Uncomment the line "#WaylandEnable=false" by removing the "#" sign.
+
+Note: moving window programmatically in Qt applications do not work on wayland, read https://forum.qt.io/topic/142043/pyside6-qmainwindow-move-not-working-on-ubuntu-22-04  Switch to Xorg session to work around the issue.
+
+Instaall X11 gestures:
+
+> sudo add-apt-repository ppa:touchegg/stable
+
+enter sudo password
+
+press "Enter"
+
+> sudo apt update
+
+> sudo apt install touchegg
+
+To verify,
+
+> systemctl status touchegg.service
+
+Launch gnome shell extension manager > Browser > "X11 gestures"
+
+Click "Install"
+
+Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/2022/06/touchpad-gestures-ubuntu-22-04-xorg/
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
