@@ -182,8 +182,6 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 * Impatience
 * Just perfection
 * Sound input & output device chooser
-* System monitor
-* Hide Activities Button
 
 # References
 
