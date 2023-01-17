@@ -179,11 +179,11 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 * Places Status Indicator
 * Removable Drive Menu
 * Improved Workspace Indicator
-* Emoji Selector
 * Impatience
 * Just perfection
 * Sound input & output device chooser
 * System monitor
+* Hide Activities Button
 
 # References
 
