@@ -105,9 +105,25 @@ Or install, run 'neofetch':
 
 > echo 'alias qt6examples="source $HOME/playqt6/venv/bin/activate && cd $HOME/playqt6/venv/lib/python3.10/site-packages/PySide6/examples"' >> $HOME/.bashrc
 
-24. Install Microsoft Fonts
+24. Install Common Fonts
 
-> sudo apt install -y ttf-mscorefonts-installer
+> sudo apt install fonts-dejavu* fonts-liberation* ttf-mscorefonts-installer fonts-crosextra-* fonts-takao-gothic fonts-opensymbol
+
+Install Google Fonts
+
+> wget https://github.com/google/fonts/archive/master.tar.gz -O gf.tar.gz
+
+> tar -xf gf.tar.gz --directory /usr/share
+
+> chown -R :users /usr/share/fonts-main
+
+> mkdir -p /usr/share/fonts/truetype/google-fonts
+
+> find /usr/share/fonts-main/ -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \; || return 1
+
+> rm -f gf.tar.gz
+
+> fc-cache -f && rm -rf /var/cache/*
 
 25. Set Up UniqueBible
 
