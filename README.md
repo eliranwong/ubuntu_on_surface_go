@@ -113,17 +113,17 @@ Install Google Fonts
 
 > wget https://github.com/google/fonts/archive/master.tar.gz -O gf.tar.gz
 
-> tar -xf gf.tar.gz --directory /usr/share
+> sudo tar -xf gf.tar.gz --directory /usr/share
 
-> chown -R :users /usr/share/fonts-main
+> sudo chown -R :users /usr/share/fonts-main
 
-> mkdir -p /usr/share/fonts/truetype/google-fonts
+> sudo mkdir -p /usr/share/fonts/truetype/google-fonts
 
-> find /usr/share/fonts-main/ -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \; || return 1
+> sudo find /usr/share/fonts-main/ -name "*.ttf" -exec install -m644 {} /usr/share/fonts/truetype/google-fonts/ \\; || return 1
 
 > rm -f gf.tar.gz
 
-> fc-cache -f && rm -rf /var/cache/*
+> sudo fc-cache -f && sudo rm -rf /var/cache/*
 
 25. Set Up UniqueBible
 
