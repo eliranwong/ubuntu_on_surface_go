@@ -199,6 +199,18 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 * Just perfection
 * Sound input & output device chooser
 
+# Free Up Space
+
+> sudo apt -s clean
+
+> sudo apt --purge autoremove
+
+> journalctl --disk-usage<br>
+> sudo journalctl --vacuum-time=3d
+
+> sudo apt install stacer<br>
+> stacer
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
