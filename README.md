@@ -151,6 +151,10 @@ Launch Gnome Shell Extension Manager to enable 'GSConnect'
 
 Pair Android phone with Ubuntu via 'KDE Connect' on Android phone.
 
+27. Support MP4 playback
+
+> sudo apt install -y ubuntu-restricted-addons ubuntu-restricted-extras gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
+
 # Switch to Xorg Session
 
 Ubuntu 22.04 uses wayland by default, switch to Xorg Session to improve application compatablility.
