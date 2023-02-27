@@ -165,6 +165,8 @@ Uncomment the line "#WaylandEnable=false" by removing the "#" sign.
 
 Note: moving window programmatically in Qt applications do not work on wayland, read https://forum.qt.io/topic/142043/pyside6-qmainwindow-move-not-working-on-ubuntu-22-04  Switch to Xorg session to work around the issue.
 
+Do not use the touchegg package provided by Ubuntu.  It does not work with X11 gestures.
+
 Instaall X11 gestures:
 
 > sudo add-apt-repository ppa:touchegg/stable
