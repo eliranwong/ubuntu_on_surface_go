@@ -155,6 +155,30 @@ Pair Android phone with Ubuntu via 'KDE Connect' on Android phone.
 
 > sudo apt install -y ubuntu-restricted-addons ubuntu-restricted-extras gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 
+28. Set up ibus
+
+Settings > Language and Region > Manage Installed Languages > Install / Remove Languages > "Chinese (Simplified)" and "Chinese (Traditional)"
+
+> sudo locale-gen
+
+> sudo apt install ibus-pinyin
+
+> ibus restart
+
+> ibus-setup
+
+Settings > Keyboard > Input Sources > Add > Chinese (Intelligent Pinyin) > Preferences > General > Chinese > Traditional
+
+> nano ~/.bashrc
+
+export LC_CTYPE=zh_CN.UTF-8<br>
+export XIM=ibus<br>
+export XIM_PROGRAM=/usr/bin/ibus<br>
+export QT_IM_MODULE=ibus<br>
+export GTK_IM_MODULE=ibus<br>
+export XMODIFIERS=@im=ibus<br>
+export DefaultIMModule=ibus
+
 # Switch to Xorg Session
 
 Ubuntu 22.04 uses wayland by default, switch to Xorg Session to improve application compatablility.
