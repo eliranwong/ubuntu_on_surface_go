@@ -231,7 +231,23 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 
 # Set up office 365 Email
 
-https://sites.utexas.edu/glenmark/2021/02/01/how-to-setup-your-office-365-email-using-evolution-ews-linux/#:~:text=Configuring%20Evolution%2DEWS%20to%20connect%20to%20Exchange%20Online&text=Enter%20your%20name%20and%20your,%2FEWS%2FExchange.asmx%20.
+1) Add Account, enter "Full Name" and "Email Address"
+
+2) uncheck "Look up mail server details based on the entered email address" and click "Next"
+
+3) Server Type > Exchange Web Services > Host URL, enter:
+
+> https://outlook.office365.com/EWS/Exchange.asmx
+
+4) Authentication > Click "Check for Supported Types" and Keep "OAuth2 (Office365)"
+
+5) Click "Fetch URL"
+
+6) Enter username and password for authentication
+
+7) Next > Next > Next > Apply
+
+Alternately, read https://sites.utexas.edu/glenmark/2021/02/01/how-to-setup-your-office-365-email-using-evolution-ews-linux/#:~:text=Configuring%20Evolution%2DEWS%20to%20connect%20to%20Exchange%20Online&text=Enter%20your%20name%20and%20your,%2FEWS%2FExchange.asmx%20.
 
 # Free Up Space
 
