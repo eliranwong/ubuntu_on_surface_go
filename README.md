@@ -229,6 +229,10 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 * Just perfection
 * Sound input & output device chooser
 
+# Set up office 365 Email
+
+https://sites.utexas.edu/glenmark/2021/02/01/how-to-setup-your-office-365-email-using-evolution-ews-linux/#:~:text=Configuring%20Evolution%2DEWS%20to%20connect%20to%20Exchange%20Online&text=Enter%20your%20name%20and%20your,%2FEWS%2FExchange.asmx%20.
+
 # Free Up Space
 
 > sudo apt -s clean
