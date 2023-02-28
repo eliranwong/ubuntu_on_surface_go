@@ -231,7 +231,13 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 
 # Set up office 365 Email
 
-1) Add Account, enter "Full Name" and "Email Address"
+> sudo apt update && sudo apt dist-upgrade
+
+> sudo apt install -y evolution evolution-ews
+
+> evolution
+
+1) New > Mail Account, enter "Full Name" and "Email Address"
 
 2) uncheck "Look up mail server details based on the entered email address" and click "Next"
 
