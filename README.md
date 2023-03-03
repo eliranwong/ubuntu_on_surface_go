@@ -293,6 +293,10 @@ comment out 'load-module module-suspend-on-idle'
 
 > systemctl --user restart pulseaudio
 
+# Set up Remote Desktop Server
+
+https://github.com/eliranwong/ubuntu_on_surface_go/blob/main/setup_remote_destkop_on_ubuntu.md
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
