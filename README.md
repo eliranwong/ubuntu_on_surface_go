@@ -267,6 +267,20 @@ Alternately, read https://sites.utexas.edu/glenmark/2021/02/01/how-to-setup-your
 > sudo apt install stacer<br>
 > stacer
 
+# Copy Shortcuts on Desktop
+
+Copy favourite shortcuts files
+
+from:
+
+> /usr/share/applications/
+
+> /var/lib/snapd/desktop/applications/
+
+to:
+
+> ~/Desktop/
+
 # Fix Pulseaudio Playback Delay
 
 > sudo nano /etc/pulse/default.pa
