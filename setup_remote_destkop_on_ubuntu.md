@@ -24,9 +24,19 @@ To allow XRDP to start automatically after each system reboot, run the following
 
 > sudo systemctl enable xrdp
 
+Add xrdp to the ssl-cert group, to enable it to use the /etc/ssl/private/ssl-cert-snakeoil.key file:
+
+> sudo adduser xrdp ssl-cert
+
+Remarks: /etc/ssl/private/ssl-cert-snakeoil.key is used in cases when no other SSL certificate is installed or configured, but encrypted communication is still enabled and desired. It still encrypts traffic, however since it lacks a root authority signature, it is still vulnerable to most man-in-the-middle attacks. That is why it’s called snakeoil.
+
 By default, XRDP listens on port 3389. Make sure this port is open in your firewall to allow incoming connections. You can use the following command to open the port:
 
 > sudo ufw allow 3389/tcp
+
+To check Status, run:
+
+> sudo systemctl status xrdp
 
 # 2 Enable Sharing in Gnome Desktop Settings
 
