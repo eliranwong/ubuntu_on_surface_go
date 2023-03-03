@@ -297,6 +297,10 @@ comment out 'load-module module-suspend-on-idle'
 
 https://github.com/eliranwong/ubuntu_on_surface_go/blob/main/setup_remote_destkop_on_ubuntu.md
 
+# HP Printer Drivers
+
+https://developers.hp.com/hp-linux-imaging-and-printing/
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
