@@ -289,6 +289,38 @@ Right-click each shortcut file, select "Allow Launching"
 
 comment out 'load-module module-suspend-on-idle'
 
+Read more about trouble-shooting pulseaudio at https://wiki.archlinux.org/title/PulseAudio/Troubleshooting
+
+# Replace PulseAudio with PipeWire on Ubuntu 22.04
+
+The fix for PulseAudio, mentioned above, is not a satisfactory one.  Therefore, we find it better to replace PulseAudio with Pipewire on Ubuntu 22.04.
+
+> systemctl --user status pipewire pipewire-session-manager
+
+> sudo apt install pipewire-audio-client-libraries libspa-0.2-bluetooth libspa-0.2-jack
+
+> sudo apt install wireplumber pipewire-media-session-
+
+NOTE: there’s a ‘-‘ in the end of the command indicates to remove the package. The command will also install the required pipewire-pulse automatically.
+
+> sudo cp /usr/share/doc/pipewire/examples/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d/
+
+> sudo cp /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-*.conf /etc/ld.so.conf.d/
+
+> sudo ldconfig
+
+> sudo apt remove pulseaudio-module-bluetooth
+
+> systemctl --user --now enable wireplumber.service
+
+RESTART
+
+To verify, run:
+
+> pactl info
+
+Source: https://ubuntuhandbook.org/index.php/2022/04/pipewire-replace-pulseaudio-ubuntu-2204/
+
 #load-module module-suspend-on-idle
 
 > systemctl --user restart pulseaudio
