@@ -59,7 +59,7 @@ Place the following two lines at the very beginning of the file and restart Ubun
 
 # 4 Connect from a Remote Desktop Client
 
-Check Ubuntu device ip, in Ubuntu Terminal app, run:
+Check Ubuntu device ip address, in Ubuntu Terminal app, run:
 
 > ip addr
 
@@ -68,7 +68,7 @@ Set up a remote desktop client
 1. For an example, on macOS, install "Microsoft Remote Destkop" app via App Store.
 2. Launch "Microsoft Remote Destkop"
 3. Click the "+" sign to add a pc
-4. Enter the ip in "PC name" field
+4. Enter the ip address in "PC name" field
 
 Connect from client to server:
 
