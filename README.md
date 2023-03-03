@@ -267,6 +267,16 @@ Alternately, read https://sites.utexas.edu/glenmark/2021/02/01/how-to-setup-your
 > sudo apt install stacer<br>
 > stacer
 
+# Fix Pulseaudio Playback Delay
+
+> sudo nano /etc/pulse/default.pa
+
+comment out 'load-module module-suspend-on-idle'
+
+#load-module module-suspend-on-idle
+
+> systemctl --user restart pulseaudio
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
