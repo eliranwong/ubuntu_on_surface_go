@@ -281,6 +281,8 @@ to:
 
 > ~/Desktop/
 
+Right-click each shortcut file, select "Allow Launching"
+
 # Fix Pulseaudio Playback Delay
 
 > sudo nano /etc/pulse/default.pa
