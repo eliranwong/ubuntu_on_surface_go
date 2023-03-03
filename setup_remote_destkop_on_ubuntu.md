@@ -44,8 +44,8 @@ Run in Terminal:
 
 Place the following two lines at the very beginning of the file and restart Ubuntu:
 
-export GNOME_SHELL_SESSION_MODE=ubuntu<br>
-export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+> export GNOME_SHELL_SESSION_MODE=ubuntu<br>
+> export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 
 # 4 Connect from a Remote Desktop Client
 
