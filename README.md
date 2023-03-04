@@ -331,6 +331,12 @@ https://github.com/eliranwong/ubuntu_on_surface_go/blob/main/setup_remote_destko
 
 # HP Printer Drivers
 
+First, install libcanberra-gtk-module
+
+> sudo apt install libcanberra-gtk-module
+
+Then, download hplip software and install printer driver:
+
 https://developers.hp.com/hp-linux-imaging-and-printing/
 
 # References
