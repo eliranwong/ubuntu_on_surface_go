@@ -289,6 +289,10 @@ Right-click each shortcut file, select "Allow Launching"
 
 comment out 'load-module module-suspend-on-idle'
 
+#load-module module-suspend-on-idle
+
+> systemctl --user restart pulseaudio
+
 Read more about trouble-shooting pulseaudio at https://wiki.archlinux.org/title/PulseAudio/Troubleshooting
 
 # Replace PulseAudio with PipeWire on Ubuntu 22.04
@@ -339,11 +343,11 @@ To verify, run:
 
 > pactl info
 
-Source: https://ubuntuhandbook.org/index.php/2022/04/pipewire-replace-pulseaudio-ubuntu-2204/
+Source: 
 
-#load-module module-suspend-on-idle
+https://ubuntuhandbook.org/index.php/2022/04/pipewire-replace-pulseaudio-ubuntu-2204/
 
-> systemctl --user restart pulseaudio
+https://www.how2shout.com/linux/enable-pipewire-for-audio-and-bluetooth-in-ubuntu-22-04-or-20-04/
 
 # Set up Remote Desktop Server
 
