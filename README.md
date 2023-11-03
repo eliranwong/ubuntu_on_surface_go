@@ -283,6 +283,26 @@ to:
 
 Right-click each shortcut file, select "Allow Launching"
 
+# Change Desktop to a Solid Color
+
+Run in terminal:
+
+> gsettings set org.gnome.desktop.background color-shading-type 'solid'
+   
+> gsettings set org.gnome.desktop.background picture-uri none
+             
+> gsettings set org.gnome.desktop.background picture-uri-dark none
+           
+> gsettings set org.gnome.desktop.background primary-color '#343434'
+
+Alternately, use run gui app 'dconf-editor'
+
+> sudo apt install dconf-editor
+
+![background_highlighted](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/aae5a98d-ff64-4bba-9b29-a69bffeb4088)
+
+![primary_color](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/15da96f1-1578-4115-a9ac-19f185ecf7d5)
+
 # Fix Pulseaudio Playback Delay
 
 > sudo nano /etc/pulse/default.pa
