@@ -293,7 +293,7 @@ Run in terminal:
              
 > gsettings set org.gnome.desktop.background picture-uri-dark none
            
-> gsettings set org.gnome.desktop.background primary-color '#343434'
+> gsettings set org.gnome.desktop.background primary-color '#0D1117'
 
 Alternately, use run gui app 'dconf-editor'
 
