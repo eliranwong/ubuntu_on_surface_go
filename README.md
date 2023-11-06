@@ -303,6 +303,16 @@ Alternately, use run gui app 'dconf-editor'
 
 ![primary_color](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/15da96f1-1578-4115-a9ac-19f185ecf7d5)
 
+# Install Waydroid
+
+> sudo apt install curl ca-certificates linux-headers-generic
+
+> curl https://repo.waydro.id | sudo bash
+
+> sudo apt install waydroid dkms
+
+> https://docs.waydro.id/usage/install-and-run-android-applications
+
 # Fix Pulseaudio Playback Delay
 
 > sudo nano /etc/pulse/default.pa
