@@ -125,6 +125,10 @@ Install Google Fonts
 
 > sudo fc-cache -f && sudo rm -rf /var/cache/*
 
+[Optional] Chinese Fonts
+
+> sudo apt install xfonts-wqy ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-bkai00mp fonts-arphic-bsmi00lp fonts-arphic-gbsn00lp fonts-arphic-gkai00mp xfonts-intl-chinese xfonts-intl-chinese-big
+
 25. Set Up UniqueBible
 
 > cd
@@ -222,6 +226,7 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 * Apps Menu
 * Places Status Indicator
 * Removable Drive Menu
+* Replace Activities Text
 * Improved Workspace Indicator
 * Impatience
 * Just perfection
