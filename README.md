@@ -216,18 +216,18 @@ Read more about hand gestures on X11 at https://ubuntuhandbook.org/index.php/202
 # Useful Gnome Shell Extension
 
 * GSConnect
-* X11 gestures
 * Clipboard Indicator
 * Vitals
 * Caffeine
-* Application Menu
-* CPU Power Manager
+* Apps Menu
 * Places Status Indicator
 * Removable Drive Menu
 * Improved Workspace Indicator
 * Impatience
 * Just perfection
+* CPU Power Manager
 * Sound input & output device chooser
+* X11 gestures
 
 # Set up office 365 Email
 
