@@ -149,7 +149,9 @@ Install and run 'KDE Connect'; select a folder and grant permission for file sha
 
 On Ubuntu, run either:
 
-> sudo apt install kdeconnect nautilus-kdeconnect gnome-shell-extension-gsconnect gnome-shell-extension-manager
+> sudo apt install gnome-shell-extension-gsconnect gnome-shell-extension-manager
+
+Related packages: kdeconnect nautilus-kdeconnect
 
 Launch Gnome Shell Extension Manager to enable 'GSConnect'
 
@@ -397,6 +399,16 @@ First, install libcanberra-gtk-module
 Then, download hplip software and install printer driver:
 
 https://developers.hp.com/hp-linux-imaging-and-printing/
+
+Download: https://developers.hp.com/hp-linux-imaging-and-printing/gethplip
+
+Installation instructions: https://developers.hp.com/hp-linux-imaging-and-printing/install/install/index
+
+Run 'hp-setup' after restart:
+
+> hp-setup
+
+Remarks: Enter IP address manually if printer is not found. 
 
 # References
 
