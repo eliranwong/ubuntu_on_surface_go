@@ -410,6 +410,10 @@ Run 'hp-setup' after restart:
 
 Remarks: Enter IP address manually if printer is not found. 
 
+# Install Windows VM
+
+https://ubuntu.com/tutorials/how-to-install-a-windows-11-vm-using-lxd#1-overview
+
 # References
 
 https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
