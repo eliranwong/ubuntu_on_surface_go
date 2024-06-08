@@ -414,6 +414,8 @@ Remarks: Enter IP address manually if printer is not found.
 
 https://ubuntu.com/tutorials/how-to-install-a-windows-11-vm-using-lxd#1-overview
 
+https://fostips.com/install-incus-container-ubuntu-debian/
+
 https://discussion.scottibyte.com/t/windows-11-incus-virtual-machine/362
 
 https://blog.simos.info/how-to-run-a-windows-virtual-machine-on-incus-on-linux/
