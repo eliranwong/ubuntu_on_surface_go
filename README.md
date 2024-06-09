@@ -306,9 +306,9 @@ Alternately, use run gui app 'dconf-editor'
 
 > sudo apt install dconf-editor
 
-![background_highlighted](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/aae5a98d-ff64-4bba-9b29-a69bffeb4088)
+![background1](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/fb289c1b-8ae4-403d-882f-a7694a8ca5d9)
 
-![primary_color](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/15da96f1-1578-4115-a9ac-19f185ecf7d5)
+![background2](https://github.com/eliranwong/ubuntu_on_surface_go/assets/25262722/ffe5e59d-ba87-473c-8ff6-0bb6ffa24053)
 
 # Install Waydroid
 
